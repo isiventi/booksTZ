@@ -1,0 +1,60 @@
+.book {
+   width: 56%;
+   margin-left: auto;
+   margin-right: auto;
+   background-color: #fff;
+   max-width: 650px;
+   min-height: 200px;
+   height: auto;
+   margin-bottom: 30px;
+   display: flex;
+}
+
+@media only screen and (max-width: 800px) { 
+   .book {
+      width: 90%; 
+   }
+}
+
+.book__image {
+   flex-basis: 30%;
+   display: flex;
+}
+
+.book__image_el {
+   margin: auto;
+   max-width: 147px;
+   max-height: 198px; 
+}
+
+@media only screen and (max-width: 500px) { 
+   .book__image_el {
+      max-width: 80px;
+   }
+}
+
+.book__info {
+   flex-basis: 70%;
+   font-style: italic;
+}
+
+.book__info_title {
+   margin-top: 11px;
+   font-size: 25px;
+   font-weight: bold;
+
+}
+
+.book__info_authors {
+   font-size: 14px;
+}
+
+.card {
+   margin-top: 10px;
+   margin-button: 10px;
+   font-size: 14px;
+}
+
+.book__info_isbn {
+   padding-bottom: 15px;
+}

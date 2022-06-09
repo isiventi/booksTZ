@@ -1,0 +1,31 @@
+.sort {
+   background-color: #fff;
+   border: 1px solid #d9d9d9;
+   max-width: 650px;
+   width: 56%;
+   height: 40px;
+   margin: 20px auto 0px auto;
+   display: flex;
+   align-items: center;
+}
+
+@media only screen and (max-width: 800px) {
+   .sort {
+      width: 90%; 
+   }
+}  
+
+.sort__text {
+   padding: 0px 10px 0px 10px;
+}
+
+.sort__btnTitle {
+   margin-right: 10px;
+}
+
+.sort__btnTitle, .sort__btnYear {
+   height: 100%;
+}
+
+
+

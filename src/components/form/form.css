@@ -1,0 +1,122 @@
+.form {
+   background-color: #fff;
+   max-width: 650px;
+   width: 56%;
+   height: auto;
+   margin-top: 20px;
+   margin-left: auto;
+   margin-right: auto;
+   box-shadow: 0px 1px 8px rgb(185, 185, 185);
+}
+
+@media only screen and (max-width: 800px) { 
+   .form {
+      width: 73%; 
+   }
+ }
+
+ @media only screen and (max-width: 500px) { 
+   .form {
+      width: 100%;
+      box-shadow: 0px 0px 0px;
+      margin: 0px; 
+      padding: 0px;
+   }
+} 
+
+.label {
+   display: block;
+   margin-top: 20px;
+}
+
+.form__text {
+   margin-left: 10px;
+   font-size: 14px;
+   display: block;
+   margin-bottom: 10px;
+   font-weight: bold;
+}
+
+.form__input {
+   margin-left: 10px;
+}
+
+.form__btnAdd {
+   margin-top: 10px;
+   margin-left: 10px;
+   border-radius: 4px;
+   border: 1px solid #d9d9d9;
+   cursor: pointer;
+   display: block;
+   height: 25px;
+}
+
+.form__header {
+   display: flex;
+   justify-content: flex-end;
+   align-items: center;
+}
+
+.form__header_title {
+   display: flex;
+   justify-content: center;
+   font-size: 19px;
+   flex-basis: 95%;
+   color: #cc9a9a;
+   font-weight: bold;
+}
+
+.form__header_btnClose {
+   margin: 10px 10px 0px 0px;
+   border-radius: 4px;
+   border: 1px solid #cc9a9a;
+   cursor: pointer;
+   flex-basis: 5%;
+}
+
+.inputAuthor {
+   height: 25px;
+   width: 43%;
+   border: 1px solid #d9d9d9;
+   border-radius: 4px;
+   margin-bottom: 10px;
+}
+
+@media only screen and (max-width: 980px) { 
+   .inputAuthor {
+      max-width: 80%;
+      width: 100%; 
+   }
+}
+
+@media only screen and (max-width: 500px) { 
+   .inputAuthor {
+      max-width: 91%;
+      width: 100%; 
+   }
+}
+
+.form__btn_save {
+   margin: 20px;
+}
+
+.inputFile {
+   margin-bottom: 20px;
+}
+
+.form__inputDel {
+   margin-left: 10px;;
+   display: inline-block;
+   width: 20px;
+   height: 20px;
+   cursor: pointer;
+   border: 1px solid #d9d9d9;
+   border-radius: 4px;
+   color: #cc9a9a;
+   align-items: center;
+   padding-left: 10px;
+}
+
+input:invalid {
+   border: 1px solid #d81515;
+}
